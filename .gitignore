@@ -1,2 +1,4 @@
+.idea/
+docker/myenv/
 work_dirs
 *.pyc

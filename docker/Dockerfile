@@ -34,6 +34,5 @@ RUN source /opt/conda/etc/profile.d/conda.sh && conda activate myenv && conda in
 RUN source /opt/conda/etc/profile.d/conda.sh && conda activate myenv && conda install -y -c conda-forge mkl-service
 RUN source /opt/conda/etc/profile.d/conda.sh && conda activate myenv && conda install -y -c intel mkl_fft
 
-ENTRYPOINT ["/bin/bash", "-c", "source ~/.bashrc && exec \"$@\""]
-
+CMD ["/bin/bash"]
 

@@ -26,7 +26,7 @@ scipy
 Shapely
 six==1.14.0
 terminaltables==3.1.0
-torch
-torchvision
+torch==1.4.0
+torchvision==0.5.0
 tqdm==4.44.1
 yacs==0.1.6
